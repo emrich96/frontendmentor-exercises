@@ -1,0 +1,75 @@
+/* .dm-serif-display-regular-italic {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+.dm-serif-display-regular {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+   */
+
+/* For mobile */
+@media only screen and (max-width: 1000px) {
+    .container {
+        font-size: 16px;
+    }
+}
+
+h1, h2, h3, h4 {
+    font-family: "DM Serif Display", serif;
+}
+
+h1 {
+    font-size: 5vw;
+}
+
+h2 {
+    font-size: 2vw;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+    border-bottom: .25em solid #518CE8;
+}
+
+body {
+    background-image: url("./assets/background-main.png");
+    background-color: #f9f8f6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Sarabun", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1vw;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+
+    .container {
+        margin: auto;
+        width: 50vw;
+        justify-content: center;
+
+    }
+
+    .main {
+        text-align: left;
+        padding: 20px;
+        top: 20%;
+        left: 20%;
+        /* transform: translate(-50%, -50%); */
+        position: absolute;
+    }
+
+    .attribution {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+}
